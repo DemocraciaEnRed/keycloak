@@ -1,6 +1,7 @@
-FROM jboss/keycloak:4.4.0.Final
+FROM jboss/keycloak:6.0.1
 MAINTAINER aaraujo@protonmail.ch
 
-COPY democracyos /opt/jboss/keycloak/themes/democracyos
+ADD themes/custom /opt/jboss/keycloak/themes
+
 COPY customization/standalone.xml /opt/jboss/keycloak/standalone/configuration/
 COPY customization/standalone-ha.xml /opt/jboss/keycloak/standalone/configuration/

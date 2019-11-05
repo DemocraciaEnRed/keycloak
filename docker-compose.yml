@@ -19,7 +19,8 @@ services:
       # One per each custom theme.
       # Example:
       # - ./themes/custom/causascomunes:/opt/jboss/keycloak/themes/causascomunes
-      - ./themes/custom/causascomunes:/opt/jboss/keycloak/themes/causascomunes
+      - ./themes/custom/causascomunes-theme:/opt/jboss/keycloak/themes/causascomunes-theme
+      - ./themes/custom/leyesabiertas-theme:/opt/jboss/keycloak/themes/leyesabiertas-theme
     networks:
       - keycloak_network
   mysql:

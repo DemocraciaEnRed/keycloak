@@ -61,7 +61,7 @@ h1#kc-page-title{
     height: 98px;
     background-image: url(../img/keycloak-logo-text.png);
     background-size: cover;
-    background-position: center;  
+    background-position: center;
     box-sizing: border-box;
     cursor:pointer;
 }
@@ -169,7 +169,7 @@ h1#kc-page-title{
        display: none;}
 }
 .footerBar {
-    width:60%;  
+    width:60%;
     margin-left:auto;
     margin-right:auto;
     height: 2rem;
@@ -221,7 +221,7 @@ h1#kc-page-title{
     margin-right: 2.0rem;
 }
 
-.bottomFooter { 
+.bottomFooter {
     padding: 3.9rem 17.5rem 3.9rem;
     background-color: #5c98bd;
     display:flex;
@@ -405,6 +405,9 @@ div.kc-logo-text span {
 #kc-info {
     padding-bottom: 200px;
     margin-bottom: -200px;
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
 }
 
 #kc-info-wrapper {
@@ -426,6 +429,12 @@ div.kc-logo-text span {
 
 #kc-registration {
     margin-bottom: 15px;
+    font-size: 1.2em;
+    color: black;
+}
+
+#kc-registration a {
+    margin-left: 0;
 }
 
 /* TOTP */

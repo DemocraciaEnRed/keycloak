@@ -33,13 +33,13 @@
 
 <body class="${properties.kcBodyClass!}">
   <div class="${properties.kcLoginClass!}">
-    
+
     <nav class="topNavbar">
         <div class="logoWrapper">
             <a href="${(client.baseUrl)!"https://leyesabiertas.hcdn.gob.ar"}/"><div class="Logo"></div></a>
         </div>
         <div class="loginBar">
-            <a class="loginButton dark" href="${url.loginUrl}">Iniciar sesión</a>
+            <!--<a class="loginButton light" href="${url.loginUrl}">Iniciar sesión</a>-->
             <a class="loginButton light" href="${url.registrationUrl}">Registrarse</a>
         </div>
     </nav>
@@ -52,7 +52,7 @@
            <a href='${(client.baseUrl)!"https://leyesabiertas.hcdn.gob.ar"}/info?section=sobre-la-plataforma'class="footerLink">Acerca de</a>
      </div>
     </div>
-    
+
     <div class="breadcrumbBar">
         <a class="loginButton light" href="${(client.baseUrl)!"https://leyesabiertas.hcdn.gob.ar"}/"> < Volver al inicio</a>
     </div>
@@ -111,7 +111,7 @@
 
 
     </div>
-    
+
     <div class="socialBar">
         <a href=""><div class="socialIconTw"></div></a>
         <a href=""><div class="socialIconFb"></div></a>
